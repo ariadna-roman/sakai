@@ -24,18 +24,6 @@
         <module>web-portlet</module> 
       </modules>
     </profile>
-    <profile>
-      <id>full</id>
-      <activation>
-        <activeByDefault>true</activeByDefault>
-      </activation>
-      <modules>
-        <module>web-api/api</module>
-        <module>web-impl/impl</module>
-        <module>web-tool/tool</module>
-        <module>web-portlet</module> 
-      </modules>
-    </profile>
   </profiles>
   <dependencyManagement>
     <dependencies>
